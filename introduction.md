@@ -40,22 +40,18 @@ Some people group information retrieval (IR) and information filtering (IF), but
 
 #### Information Retrieval
 
-An information retrieval system is used to obtain multimedia resources relevant to an information need from a collection of multimedia data ([Wikipedia](https://en.wikipedia.org/wiki/Information_retrieval)). A typical information retrieval system is structured as follows:
+An information retrieval system is used to obtain multimedia resources relevant to an information need from a collection of multimedia data ([Wikipedia](https://en.wikipedia.org/wiki/Information_retrieval)). 
 
-![Information retrieval system](http://article.sapub.org/image/10.5923.j.se.20120202.04_001.gif)
+Information retrieval is covered in the following chapters:
 
-(Image source: [Scientific and Acedemic Publishing](http://article.sapub.org/image/10.5923.j.se.20120202.04_001.gif))
-
-Examples:
-
-* [Music information retrieval](music-information-retrieval.md)
-* Search engines such as Google and YouTube search
+* [Information Retrieval](information-retrieval.md)
+* [Music Information Retrieval](music-information-retrieval.md)
 
 #### Information Filtering
 
 An information filtering system selects a subset of items to show to the user: its goal is to increase the "signal-to-noise" ratio. To do this, the system compares the user's profile some reference characteristics ([Wikipedia](https://en.wikipedia.org/wiki/Information_filtering_system)).
 
-Examples:
+Information filtering is covered in the following chapters:
 
 * [Recommender systems](recommender-systems.md)
 
@@ -88,6 +84,10 @@ Ranking is an **unsupervised** technique (classically) that produces **a list of
 Classification is a **supervised** technique (classifcally) that takes a **data point** as input, and assigns it a **class label** as output. I like to think of classification as answering the question: "To which cluster does this (new) data point belong?"
 
 A **perceptron** is a single-layer neural network that acts as a classifier.
+
+Classification is covered in the following chapters:
+
+* [Evaluating Multimedia Systems](evaluation.md)
 
 ### Regression
 
