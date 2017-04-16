@@ -1,6 +1,6 @@
 # Recommender Systems
 
-**Lectures covered:** 3.1T
+**Relevant lectures:** 3.1T
 
 Recommender systems are a type of **information filtering** system that attempt to predict **user preferences**. Concretely, they aim to predict the rating or score some **user** would give to an **item**. They use this rating to provide the user with some sort of recommendation.
 
