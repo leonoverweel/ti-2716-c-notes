@@ -64,3 +64,7 @@ Using user-user (also known as *memory-based*) collaborative filtering to predic
 1. **Predicting the rating:** Use the neighbors' ratings to predict user `i`'s rating for item `j`.
 
 This prediction can be made using the user-user collaborative filter formula, which takes an average of all the ratings other uses have made for item `j`, weighted by their similarity to user `i` (using [Pearson correlation](background.md#pearson-correlation) or [cosine similarity](background.md#cosine-similarity)). See [Wikipedia's explanation](https://en.wikipedia.org/wiki/Collaborative_filtering#Memory-based).
+
+---
+
+[ [Home](README.md) ]
