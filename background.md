@@ -1,5 +1,7 @@
 # Background Knowledge
 
+**Relevant lectures:** 3.1T
+
 This chapter contains a summary of **similarity and distance measures** relevant to this course.
 
 ## Similarity and Distance Measures
