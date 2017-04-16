@@ -24,3 +24,7 @@ There are three broad categories of machine learning ([Wikipedia](https://en.wik
 * **Reinforcement learning:** The system interacts with a dynamic environment where it has some goal (e.g. "safely drive from A to B"), and constantly gets feedback from its interaction with the environment.
 
 Supervised and unsupervised learning are both relevant to TI2716-C, whereas reinforcement learning is out of the course's scope.
+
+---
+
+[ [Home](README.md) ]
