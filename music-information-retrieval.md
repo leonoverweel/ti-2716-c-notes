@@ -86,3 +86,7 @@ Genre classification uses a bag-of-frames approach similar to the bag-of-words a
 ## Music & Multimedia
 
 Music can also be a multimedia experience. Sadly, the (very cool) examples shown in the lecture do not translate well to a markdown file.
+
+---
+
+[ [Home](README.md) ]
