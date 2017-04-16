@@ -2,7 +2,7 @@
 
 **Relevant lectures:** 3.1T, 3.1F
 
-This chapter contains some math about the **mean**, **variance**, and **guassian functions**, as well as a summary of **similarity and distance measures** relevant to this course.
+This chapter contains some math about the **mean**, **variance**, and **guassian functions**, image processing topics such as **SIFT**, and a summary of **similarity and distance measures** relevant to this course.
 
 ## Math
 
@@ -23,6 +23,12 @@ A guassian function is characterized by its `μ` (mean) and `σ^2` (variance).
 ![Several Gaussians](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/360px-Normal_Distribution_PDF.svg.png)
 
 (Extra reading: [Stanford Coursera course](https://www.coursera.org/learn/machine-learning/lecture/ZYAyC/gaussian-distribution); Image source: [wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/360px-Normal_Distribution_PDF.svg.png))
+
+## Image Processing
+
+### SIFT
+
+"Scale-invariant feature transform (SIFT) is an algorithm in computer vision to detect and describe local features in images" ([Wikipedia](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform)). Its exact workings are not too important for this course; it is mainly key to know that it acts as both **detector** and **descriptor**.
 
 ## Similarity and Distance Measures
 
