@@ -27,7 +27,36 @@ Supervised and unsupervised learning are both relevant to TI2716-C, whereas rein
 
 ## Types of Tasks in MMA and ML
 
-We encounter several types of tasks in multimedia analysis and machine learning, such as **segmentation**, **clustering**, **ranking**, **classification**, **regression**, and **sequence recognition**. Many of these are relevant to TI2716-C, and are covered in more detail below.
+We encounter several types of tasks in multimedia analysis and machine learning, such as **information retrieval and filtering**, **segmentation**, **clustering**, **ranking**, **classification**, **regression**, and **sequence recognition**. Many of these are relevant to TI2716-C, and are covered in more detail below.
+
+### Information Retrieval and Filtering
+
+Some people group information retrieval (IR) and information filtering (IF), but they have some distinctions:
+
+| **IR/IF** | **Input** | **Input characteristic** | **Collection** |
+|---|---|---|---|
+| Information retrieval | Query | Changes often and quickly | Relatively static |
+| Information filtering | Profile | Changes infrequently and slowly | Relatively dynamic |
+
+#### Information Retrieval
+
+An information retrieval system is used to obtain multimedia resources relevant to an information need from a collection of multimedia data ([Wikipedia](https://en.wikipedia.org/wiki/Information_retrieval)). A typical information retrieval system is structured as follows:
+
+![Information retrieval system](http://article.sapub.org/image/10.5923.j.se.20120202.04_001.gif)
+
+(Image source: [Scientific and Acedemic Publishing](http://article.sapub.org/image/10.5923.j.se.20120202.04_001.gif))
+
+Examples:
+
+* Search engines such as Google and YouTube search
+
+#### Information Filtering
+
+An information filtering system selects a subset of items to show to the user: its goal is to increase the "signal-to-noise" ratio. To do this, the system compares the user's profile some reference characteristics ([Wikipedia](https://en.wikipedia.org/wiki/Information_filtering_system)).
+
+Examples:
+
+* [Recommender systems](recommender-systems.md)
 
 ### Segmentation
 
@@ -39,7 +68,7 @@ Segmentation is an **unsupervised** technique that assigns similar regions of co
 * **Text segmentation**, where we split some text into meaningful segments such as words, sentences, or topics.
 * **Speech segmentation**, where we split audio up into individual phones, syllables or words.
 
-(Image source: [MathWorks]((https://www.mathworks.com/content/mathworks/www/en/discovery/image-segmentation/jcr:content/mainParsys/image_2.adapt.full.high.jpg/1469940839538.jpg))
+(Image source: [MathWorks](https://www.mathworks.com/content/mathworks/www/en/discovery/image-segmentation/jcr:content/mainParsys/image_2.adapt.full.high.jpg/1469940839538.jpg))
 
 ### Clustering
 
