@@ -1,8 +1,28 @@
 # Background Knowledge
 
-**Relevant lectures:** 3.1T
+**Relevant lectures:** 3.1T, 3.1F
 
-This chapter contains a summary of **similarity and distance measures** relevant to this course.
+This chapter contains some math about the **mean**, **variance**, and **guassian functions**, as well as a summary of **similarity and distance measures** relevant to this course.
+
+## Math
+
+### Mean and Variance of a Discrete Random Variable
+
+The **mean** `μ` (mu) of a discrete random variable `X` is the weighted sum over the possible outcomes of `X`:
+
+* `μ = E(X) = sum([p(X_i) * X_i for i in range(N)])`
+
+The **variance** `σ^2` (sigma squared) of a discrete random variable is:
+
+* `σ^2 = E(X - E(X))^2`
+
+### Gaussians
+
+A guassian function is characterized by its `μ` (mean) and `σ^2` (variance).
+
+![Several Gaussians](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/360px-Normal_Distribution_PDF.svg.png)
+
+(Extra reading: [Stanford Coursera course](https://www.coursera.org/learn/machine-learning/lecture/ZYAyC/gaussian-distribution); Image source: [wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/360px-Normal_Distribution_PDF.svg.png))
 
 ## Similarity and Distance Measures
 
