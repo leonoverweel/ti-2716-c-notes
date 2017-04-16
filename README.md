@@ -6,6 +6,7 @@ The list below links to each "chapter" of the notes, specifies the lectures cove
 
 1. [Introduction](introduction.md) (3.1T): Defines **multimedia**, **multimedia analysis**, and **machine learning**.
 1. [Background Knowledge](background.md) (3.1T): Reviews **similarity and distance measures**.
+1. [Recommender Systems](recommender-systems.md) (3.1T): Introduces **recommender systems**, their **typical tasks**, and their implementation with the **user-item matrix** and **collaborative filtering**.
 
 ## Disclaimer
 
