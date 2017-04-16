@@ -1,5 +1,7 @@
 # Introduction
 
+**Relevant lectures:** 3.1T
+
 This introduction defines **multimedia**, **multimedia analysis**, and **machine learning**, concepts which are central to TI2716-C.
 
 ## "Multimedia"
