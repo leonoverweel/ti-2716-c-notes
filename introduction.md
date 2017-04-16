@@ -48,6 +48,7 @@ An information retrieval system is used to obtain multimedia resources relevant 
 
 Examples:
 
+* [Music information retrieval](music-information-retrieval.md)
 * Search engines such as Google and YouTube search
 
 #### Information Filtering
