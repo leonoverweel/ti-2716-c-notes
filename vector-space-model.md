@@ -34,7 +34,7 @@ The vector space model is an algebraic model for representing multimedia data as
     * We use `tf` because it captures the *representativeness* of a term in the document.
 * Essentially, these are the columns of the term-document matrix.
 
-It's then possible to also translate a user's **query** into such a vector, and to **calculate the distance** between each document in the document store ("document representation" in the diagram above). The `n` documents with the smallest distance from the user's query are then the **top-n ranking** / **result list** ("retrieved documents" in the diagram above).
+It's then possible to also translate a user's **query** into such a vector, and to **calculate the distance** between each document in the document store ("document representation" in the diagram above). The `n` documents with the smallest distance from the user's query are then the **top-n ranking** / **result list**.
 
 * A popular distance/ similarity measure for the vector space model is [cosine similarity](background.md#cosine-similarity).
 
