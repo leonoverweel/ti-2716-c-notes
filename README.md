@@ -6,7 +6,7 @@ The list below links to each "chapter" of the notes, specifies the lectures cove
 
 1. [Introduction](introduction.md) (3.1T, 3.1F): Defines **multimedia**, **multimedia analysis**, and **machine learning**, and introduces **information retrieval and filtering** and the various **types of tasks in MMA and ML**.
 1. [Background Knowledge](background.md) (3.1T, 3.1F): Reviews **mean**, **variance**, **gaussian functions**, image processing concepts such as **SIFT**, and several **similarity and distance measures**.
-1. [Evaluating Multimedia Systems](evaluation.md) (3.2F): Covers **hold out evaluation**, **cross-validation**, and several evaluation metrics such as **accuracy**, **precision** and **recall**.
+1. [Evaluating Multimedia Systems](evaluation.md) (3.2F): Covers **evaluating supervised MMA tasks** using **hold out evaluation** and **cross-validation**, **evaluating information retrieval systems**, and several evaluation metrics such as **accuracy**, **precision** and **recall**.
 1. [Information Retrieval (IR)](information-retrieval.md) (3.3T): Introduces **information retrieval**.
     1. [IR Using the Vector Space Model](vector-space-model.md) (3.3T): Discusses the **term-document matrix** and the **vector space model** and its optimizations, such as **log frequencies** and **tf-idf weighting**.
     1. [IR Using the Unigram Language Model](unigram-language-model.md) (3.3F): Discusses **language models** and the **unigram language model**.
