@@ -1,7 +1,5 @@
 # Information Retrieval 
 
-**Relevant lectures:** 3.3T
-
 "Information retrieval is **finding** material of an **unstructured** nature that satisfies an **information need** from within **large collections**." (IRBook)
 
 * Such large collections include the world wide web, a personal hard drive, academic publications, etc.
@@ -19,6 +17,8 @@ A typical information retrieval system is structured as follows:
 (Image source: [Scientific and Acedemic Publishing](http://article.sapub.org/image/10.5923.j.se.20120202.04_001.gif))
 
 The **retrieval functions** (or **document ranking**) are responsible for finding documents in the **document collection** that most closely match our **query**. It can be implemented using several techniques, such as the [vector space model](vector-space-model.md) or the [unigram language model](unigram-language-model.md), depending on the application.
+
+Recall that we can also objectively [evaluate information retrieval systems](evaluation.md#evaluating-information-retrieval-systems).
 
 ---
 
