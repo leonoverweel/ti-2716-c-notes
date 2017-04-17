@@ -12,6 +12,7 @@ The list below links to each "chapter" of the notes, specifies the lectures cove
     1. [IR Using the Unigram Language Model](unigram-language-model.md) (3.3F): Discusses **language models** and the **unigram language model**.
     1. [Multimedia Information Retrieval](multimedia-information-retrieval.md) (3.3T): Explores **multimedia information retrieval**, specifically **texture recognition** and **bag of features**.
     1. [Music Information Retrieval](music-information-retrieval.md) (3.2T - guest lecture): Examines IR in music, through audio music processing (**spectrograms** and **music fundamentals**) and some case studies (**fingerprinting**, **cover song retrieval** and **genre identification**).
+1. [Classification](classification.md) (3.3F): Introduces **classification** and examines **music genre classification** using **bag of frames** and **gaussian models**, and a **naive baysian classifier** for text.
 1. [Recommender Systems](recommender-systems.md) (3.1T, 3.1F): Introduces **recommender systems**, their **typical tasks**, and their implementation through **challenges**, the **user-item matrix**, **baseline predictions**, and **collaborative filtering**.
 
 
