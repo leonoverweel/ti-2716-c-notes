@@ -35,6 +35,8 @@ For a location in the image to be classified as being a corner, its `E` needs to
 This means we want our ellipse to be much like a circle, and as large as possible. In short: `λ₁` and `λ₂` both need to be
 large and `λ₁ ≈ λ₂`.
 
+![cornerness](https://i.stack.imgur.com/k1CCY.png)
+
 ## Harris corner detector properties
 
 ### Harris corner detection steps
