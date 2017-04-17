@@ -81,7 +81,7 @@ Cover songs may differ from their originals in tempo and tembre. There are sever
 
 ### Genre Classification
 
-Genre classification uses a bag-of-frames approach similar to the bag-of-words approach in image processing.
+Genre classification uses a bag-of-frames approach similar to the bag-of-words approach in image processing. See [classification](classification.md).
 
 ## Music & Multimedia
 
