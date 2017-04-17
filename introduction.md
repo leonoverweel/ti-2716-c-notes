@@ -45,6 +45,8 @@ An information retrieval system is used to obtain multimedia resources relevant 
 Information retrieval is covered in the following chapters:
 
 * [Information Retrieval](information-retrieval.md)
+* [IR Using the Vector Space Model](vector-space-model.md)
+* [IR Using the Unigram Language Model](unigram-language-model.md)
 * [Multimedia Information Retrieval](multimedia-information-retrieval.md)
 * [Music Information Retrieval](music-information-retrieval.md)
 
@@ -82,7 +84,7 @@ Ranking is an **unsupervised** technique (classically) that produces **a list of
 
 ### Classification
 
-Classification is a **supervised** technique (classifcally) that takes a **data point** as input, and assigns it a **class label** as output. I like to think of classification as answering the question: "To which cluster does this (new) data point belong?"
+Classification is a **supervised** technique (classically) that takes a **data point** as input, and assigns it a **class label** as output. I like to think of classification as answering the question: "To which cluster does this (new) data point belong?"
 
 A **perceptron** is a single-layer neural network that acts as a classifier.
 
@@ -93,6 +95,10 @@ Classification is covered in the following chapters:
 ### Regression
 
 Regression is a **supervised** technique to relate variables to each other. It is out of scope for TI2716-C.
+
+### Sequence Recognition
+
+Sequence recognition is a **supervised** technique (classically) that performs simultaneous **segmentation** and **classification**. It could, for example, take spoken audio as input and produce a list of spoken words as output. 
 
 ---
 
