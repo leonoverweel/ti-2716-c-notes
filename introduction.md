@@ -90,6 +90,7 @@ A **perceptron** is a single-layer neural network that acts as a classifier.
 
 Classification is covered in the following chapters:
 
+* [Classification](classification.md)
 * [Evaluating Multimedia Systems](evaluation.md)
 
 ### Regression
