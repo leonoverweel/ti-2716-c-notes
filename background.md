@@ -24,6 +24,12 @@ A guassian function is characterized by its `μ` (mean) and `σ^2` (variance).
 
 (Extra reading: [Stanford Coursera course](https://www.coursera.org/learn/machine-learning/lecture/ZYAyC/gaussian-distribution); Image source: [wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/360px-Normal_Distribution_PDF.svg.png))
 
+### Bayes' Rule
+
+Bayes' rule describes the probability of an event, based on prior knowledge of conditions that might be related to the event. For example, if cancer is related to age, then, using Bayes’ theorem, a person’s age can be used to more accurately assess the probability that they have cancer, compared to the assessment of the probability of cancer made without knowledge of the person's age ([Wikipedia](https://en.wikipedia.org/wiki/Bayes%27_theorem)).
+
+Mathematically, it is expressed as `P(A|B) = (P(B|A) * P(A)) / (P(B))`, which is read as "the probability of `A` given `B` is the probability of `B` given `A` times the probability of `A` divided by the probability of `B`."
+
 ## Image Processing
 
 ### SIFT
