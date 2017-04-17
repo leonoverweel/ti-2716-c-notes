@@ -101,6 +101,10 @@ Regression is a **supervised** technique to relate variables to each other. It i
 
 Sequence recognition is a **supervised** technique (classically) that performs simultaneous **segmentation** and **classification**. It could, for example, take spoken audio as input and produce a list of spoken words as output. 
 
+Sequence recognition is covered in the following chapters:
+
+* [Automatic Speech Recognition](automatic-speech-recognition.md)
+
 ---
 
 [ [Home](README.md) ]
