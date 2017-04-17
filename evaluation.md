@@ -55,14 +55,15 @@ Evaluating **unsupervised** multimedia analysis tasks, such as a [clustering](in
 
 ## Evaluating Information Retrieval Systems
 
-Information retrieval systems have a fairly static, large **document collection**, but it does not really have the concept of a training set.
+Information retrieval systems have a fairly static, large **document collection**, but do not really have the concept of a training set.
 
-Instead, we can write several **queries** and define the **relevant items** for those queries. We can then evaluated these queries by comparing their **retrieved items** to the relevant items. We define the precision and recall "at N":
+Instead, we can write several **queries** and define the **relevant items** for those queries. We can then evaluate these queries by comparing their **retrieved items** to the relevant items. We define the precision and recall "at N":
 
 * **Precision at N:** `P@N = | { retrieved docs } ∩ { relevant docs } | / | { retrieved docs } |`
-   * "What fraction of the retrieved documents is relevant?"
+    * "What fraction of the retrieved documents is relevant?"
 * **Recall at N:** `R@N = | { retrieved docs } ∩ { relevant docs } | / | { relevant docs } |`
-   * "What fraction of the relevant documents were retrieved?"
+    * "What fraction of the relevant documents were retrieved?"
+
 ---
 
 [ [Home](README.md) ]
