@@ -1,6 +1,6 @@
 # Evaluating Multimedia Systems
 
-Before diving into the specifics of different types of multimedia systems, we must first know how to evaluate them. This chapter covers **hold out evaluation**, **cross-validation**, and several **evaluation metrics** such as **accuracy**, **precision** and **recall**.
+Before diving into the specifics of different types of multimedia systems, we must first know how to evaluate them. This chapter covers the **evaluation of supervised MMA tasks** using **hold out evaluation**, **cross-validation**, and several **evaluation metrics**, and the **evaluation of information retrieval tasks**.
 
 We evaluate multimedia systems to **objectively** determine how well they perform - "just playing" with a system (and its parameters) isn't good enough.
 * Evaluation makes it possible to **compare** how a new algorithm performs compared to other algorithms - it is the only way to know whether the new algorithm is *state of the art*.
@@ -51,8 +51,18 @@ It is up to the system designer (you!) to decide what metrics are most important
 
 ## Evaluating Unsupervised MMA Tasks
 
-Evaluating **unsupervised** multimedia analysis tasks, such as a **clustering** or a **segmentation**, are out of scope for TI2716-C.
+Evaluating **unsupervised** multimedia analysis tasks, such as a [clustering](introduction.md#clustering) or a [segmentation](introduction.md#segmentation), are out of scope for TI2716-C.
 
+## Evaluating Information Retrieval Systems
+
+Information retrieval systems have a fairly static, large **document collection**, but it does not really have the concept of a training set.
+
+Instead, we can write several **queries** and define the **relevant items** for those queries. We can then evaluated these queries by comparing their **retrieved items** to the relevant items. We define the precision and recall "at N":
+
+* **Precision at N:** `P@N = | { retrieved docs } ∩ { relevant docs } | / | { retrieved docs } |`
+   * "What fraction of the retrieved documents is relevant?"
+* **Recall at N:** `R@N = | { retrieved docs } ∩ { relevant docs } | / | { relevant docs } |`
+   * "What fraction of the relevant documents were retrieved?"
 ---
 
 [ [Home](README.md) ]
