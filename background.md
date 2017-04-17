@@ -12,7 +12,7 @@ The **mean** `μ` (mu) of a discrete random variable `X` is the weighted sum ove
 
 * `μ = E(X) = sum([p(X_i) * X_i for i in range(N)])`
 
-The **variance** `σ^2` (sigma squared) of a discrete random variable is:
+The **variance** `σ^2` (sigma squared) of a random variable is:
 
 * `σ^2 = E(X - E(X))^2`
 
