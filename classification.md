@@ -15,7 +15,11 @@ We use a bag of frames approach and first create a model. We collect audio conte
 1. Using the **means** and **variances** of the positions of these vectors in n-dimensional space, create a **representative multivariate gaussian model** for the genre.
     * Sometimes we also use a **mixed gaussian model** if our data has multiple clusters in some dimensions. (Think of the heights of humans - there will be a peak at the average child's height, average woman's height, and average man's height.)
 
-Once we have trained the model, we can calculate the audio vectors for small segments of a song to classify. For each segment's vector and each genre's gaussian model, we calculate the probability that that gaussian model produced the vector. We aggregate these to see which genre the song belongs to.
+Once we have trained the model:
+
+1. We can calculate the audio vectors for small segments of a song to classify
+1. For each segment's vector and each genre's gaussian model, we calculate the probability that that gaussian model produced the vector. 1. We create an average score per song.
+1. The classifier output for a song isthe genre class corresponding to the class with the highest score.
 
 ## Naive Bayes' Classifier for Text
 
