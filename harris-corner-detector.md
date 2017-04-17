@@ -28,3 +28,9 @@ As can be seen in the following image, these two eigenvalues form an ellipse tog
 when moving the window in a particular direction.
 
 ![ellipse](https://teroninsights.files.wordpress.com/2013/03/ellipse.png)
+
+## Interpreting eigenvalues
+
+For a location in the image to be classified as being a corner, its `E` needs to change a lot when moving in any direction.
+This means we want our ellipse to be much like a circle, and as large as possible. In short: `λ₁` and `λ₂` both need to be
+large and `λ₁ ≈ λ₂`.
