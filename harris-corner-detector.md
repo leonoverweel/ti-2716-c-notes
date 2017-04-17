@@ -35,8 +35,19 @@ For a location in the image to be classified as being a corner, its `E` needs to
 This means we want our ellipse to be much like a circle, and as large as possible. In short: `λ₁` and `λ₂` both need to be
 large and `λ₁ ≈ λ₂`.
 
-## Harris corner detection steps
+## Harris corner detector properties
+
+### Harris corner detection steps
 
 - Compute `M` matrix for each pixel surrounded by a window. Calculate `m`'s eigenvalues to find its cornerness.
 - Keep only points with a high cornerness score.
 - For all remaining points keep only the local maxima.
+
+### Variant-invariant
+
+The harris corner detector is **shift invariant** since only local properties are used. Rotations affect only the eigenvectors
+but not the eigenvalues, therefore the Harris detector is **rotation covariant**. A disadvantage of the Harris detector is 
+**scaling variant** it is easy to image this being the case when a small window is placed on a very large corner, in that case
+the window sees something very much line-like instead of corner-like (see image below).
+
+![scale](http://docs.opencv.org/3.1.0/sift_scale_invariant.jpg)
