@@ -6,6 +6,7 @@
 
 * Such large collections include the world wide web, a personal hard drive, academic publications, etc.
 * The user input, an **information need** is inside her head; she translates it to a **query** (in the form of text, a photograph, a drawing, or some other media); the system must then find the most relevant documents to return to her.
+* The challenge of retrieval is to design and implement a relevance score that reflects a user's judgments of relevance.
 
 Although they are often used interchangably, there is a difference between **retrieval** and **ranking** (slides):
 * **Ranking:** Given a **test item**, return an list of similar items from a background collection ordered according to similarity score. (See [introduction](introduction.md#ranking).)
