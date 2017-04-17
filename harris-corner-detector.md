@@ -9,3 +9,22 @@ Change in a window can be expressed as follows:
 Here w(x,y) is the result of the window function at location (x,y). To common window functions are a square window (1 inside, 0 outside)
 and a gaussian. I(x,y) means the intensity of the image at location (x,y). E(u,v) represents the total change in intensity when moving
 the window `u` pixels horizontally and `v` pixels vertically from its starting location.
+
+## Quadratic approximation
+
+To find in-between-pixel results we can use a Taylor expansion, an approximation of this can be given by:
+
+`E(u,v) ≈ [u v] M [u; v]`
+
+Where `M`, the **second moment matrix**, is defined <sub>a</sub> by:
+
+`M = Σ(x,y) w(x,y)*[Iₓ², IₓI`<sub>`y`</sub>`; IₓI`<sub>`y`</sub>`, I`<sub>`y`</sub>`²]`
+
+Now with some linear algebra [magic](https://blackboard.tudelft.nl/bbcswebdav/pid-2928030-dt-content-rid-10171523_2/courses/40224-161703/MMA_Week4_Lecture1_2017_harris.pdf) we can express `M` with two **orthogonal eigenvalues**:
+
+`M -> [λ₁ 0; 0 λ₂]`
+
+As can be seen in the following image, these two eigenvalues form an ellipse together that describes the rate in which `E` changes
+when moving the window in a particular direction.
+
+![ellipse](https://teroninsights.files.wordpress.com/2013/03/ellipse.png)
