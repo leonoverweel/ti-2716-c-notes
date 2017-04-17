@@ -45,6 +45,7 @@ An information retrieval system is used to obtain multimedia resources relevant 
 Information retrieval is covered in the following chapters:
 
 * [Information Retrieval](information-retrieval.md)
+* [Multimedia Information Retrieval](multimedia-information-retrieval.md)
 * [Music Information Retrieval](music-information-retrieval.md)
 
 #### Information Filtering
@@ -77,7 +78,7 @@ Clustering is an **unsupervised** technique that assigns similar items into grou
 
 ### Ranking
 
-Ranking is an **unsupervised** technique (classically) that produces **a list of items** ordered (high to low) by their relevance to the user's information need. This relevance is calculated using [similarity measures](background.md#similarity-and-distance-measures) between the item and the user's query.
+Ranking is an **unsupervised** technique (classically) that produces **a list of items** ordered (high to low) by their similarity to a test item. This relevance is calculated using [similarity measures](background.md#similarity-and-distance-measures) between the test item and the items in the collection.
 
 ### Classification
 
