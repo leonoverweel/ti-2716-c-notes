@@ -34,3 +34,9 @@ when moving the window in a particular direction.
 For a location in the image to be classified as being a corner, its `E` needs to change a lot when moving in any direction.
 This means we want our ellipse to be much like a circle, and as large as possible. In short: `λ₁` and `λ₂` both need to be
 large and `λ₁ ≈ λ₂`.
+
+## Harris corner detection steps
+
+- Compute `M` matrix for each pixel surrounded by a window. Calculate `m`'s eigenvalues to find its cornerness.
+- Keep only points with a high cornerness score.
+- For all remaining points keep only the local maxima.
