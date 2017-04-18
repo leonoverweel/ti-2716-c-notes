@@ -45,3 +45,7 @@ The harris corner detector is **shift invariant** since only local properties ar
 A disadvantage of the Harris detector is that it is not **scale invariant**. It is easy to image this being the case when a small window is placed on a very large corner, so that the window sees something very much line-like instead of corner-like (see image below).
 
 ![scale](http://docs.opencv.org/3.1.0/sift_scale_invariant.jpg)
+
+---
+
+[ [Home](README.md) ]
