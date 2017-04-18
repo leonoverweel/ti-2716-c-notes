@@ -13,7 +13,7 @@ The list below links to each "chapter" of the notes, specifies the lectures cove
     1. [Multimedia Information Retrieval](multimedia-information-retrieval.md) (3.3T): Explores **multimedia information retrieval**, specifically **texture recognition** and **bag of features**.
     1. [Music Information Retrieval](music-information-retrieval.md) (3.2T - guest lecture): Examines IR in music, through audio music processing (**spectrograms** and **music fundamentals**) and some case studies (**fingerprinting**, **cover song retrieval** and **genre identification**).
 1. [Classification](classification.md) (3.2T, 3.3F, 3.4F): Introduces **classification** and examines **music genre classification** using **bag of frames** and **gaussian mixture models**, and a **naive baysian classifier** for text.
-1. [Automatic Speech Recognition](automatic-speech-recognition) (3.4F): Covers the **noisy channel model**, **automatic speech recognition architecture**, **gaussian classifiers** as **acoustic model**, and the **n-gram model**.
+1. [Automatic Speech Recognition](automatic-speech-recognition.md) (3.4F): Covers the **noisy channel model**, **automatic speech recognition architecture**, **gaussian classifiers** as **acoustic model**, and the **n-gram model**.
 1. [Recommender Systems](recommender-systems.md) (3.1T, 3.1F): Introduces **recommender systems**, their **typical tasks**, and their implementation through **challenges**, the **user-item matrix**, **baseline predictions**, and **collaborative filtering**.
 
 
