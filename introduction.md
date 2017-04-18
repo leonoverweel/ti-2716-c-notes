@@ -27,16 +27,24 @@ Supervised and unsupervised learning are both relevant to TI2716-C, whereas rein
 
 ## Types of Tasks in MMA and ML
 
-We encounter several types of tasks in multimedia analysis and machine learning, such as **information retrieval and filtering**, **segmentation**, **clustering**, **ranking**, **classification**, **regression**, and **sequence recognition**. Many of these are relevant to TI2716-C, and are covered in more detail below.
+We encounter several types of tasks in multimedia analysis and machine learning, such as **information filtering and retrieval**, **segmentation**, **clustering**, **ranking**, **classification**, **regression**, and **sequence recognition**. Many of these are relevant to TI2716-C, and are covered in more detail below.
 
-### Information Retrieval and Filtering
+### Information Filtering and Retrieval
 
 Some people group information retrieval (IR) and information filtering (IF), but they have some distinctions:
 
 | **IR/IF** | **Input** | **Input characteristic** | **Collection** |
 |---|---|---|---|
-| Information retrieval | Query | Changes often and quickly | Relatively static |
 | Information filtering | Profile | Changes infrequently and slowly | Relatively dynamic |
+| Information retrieval | Query | Changes often and quickly | Relatively static |
+
+#### Information Filtering
+
+An information filtering system selects a subset of items to show to the user: its goal is to increase the "signal-to-noise" ratio. To do this, the system compares the user's profile some reference characteristics ([Wikipedia](https://en.wikipedia.org/wiki/Information_filtering_system)).
+
+Information filtering is covered in the following chapters:
+
+* [Recommender systems](recommender-systems.md)
 
 #### Information Retrieval
 
@@ -49,14 +57,6 @@ Information retrieval is covered in the following chapters:
 * [IR Using the Unigram Language Model](unigram-language-model.md)
 * [Multimedia Information Retrieval](multimedia-information-retrieval.md)
 * [Music Information Retrieval](music-information-retrieval.md)
-
-#### Information Filtering
-
-An information filtering system selects a subset of items to show to the user: its goal is to increase the "signal-to-noise" ratio. To do this, the system compares the user's profile some reference characteristics ([Wikipedia](https://en.wikipedia.org/wiki/Information_filtering_system)).
-
-Information filtering is covered in the following chapters:
-
-* [Recommender systems](recommender-systems.md)
 
 ### Segmentation
 
