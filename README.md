@@ -4,7 +4,7 @@ These are my review notes for Multimedia Analysis. The topics in these notes (ro
 
 The list below links to each "chapter" of the notes, specifies the lectures covered (3.1T = lecture from the Tuesday of academic week 3.1), and briefly describes the contents of the chapter.
 
-1. [Introduction](introduction.md) (3.1T, 3.1F): Defines **multimedia**, **multimedia analysis**, and **machine learning**, and introduces **information filtering and retrieval** and the various **types of tasks in MMA and ML**.
+1. [Introduction](introduction.md) (3.1T, 3.1F, 3.4F): Defines **multimedia**, **multimedia analysis**, the **semantic gap**, and **machine learning**, and introduces **information filtering and retrieval** and the various **types of tasks in MMA and ML**.
 1. [Background Knowledge](background.md) (3.1T, 3.1F): Reviews **mean**, **variance**, **gaussian functions**, image processing concepts such as **SIFT**, and several **similarity and distance measures**.
 1. [Evaluating Multimedia Systems](evaluation.md) (3.2F, 3.3F): Covers **evaluating supervised MMA tasks** using **hold out evaluation** and **cross-validation**, **evaluating information retrieval systems**, and several evaluation metrics such as **accuracy**, **precision** and **recall**.
 1. [Recommender Systems](recommender-systems.md) (3.1T, 3.1F): Introduces **recommender systems**, their **typical tasks**, and their implementation through **challenges**, the **user-item matrix**, **baseline predictions**, and **collaborative filtering**.
