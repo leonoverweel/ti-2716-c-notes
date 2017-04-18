@@ -75,3 +75,7 @@ Several techniques exist to counter the errors this might cause: we could simply
     P(w_{n} | w_{n-1}) = (count(w_{n-1}, w_{n}) + 1) / (N + V)
 
 In practice, more sophisticated techniques are used, which are out of the scope of TI2716-C.
+
+---
+
+[ [Home](README.md) ]
